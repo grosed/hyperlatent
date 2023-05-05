@@ -1,4 +1,4 @@
 useDynLib(praxi, .registration=TRUE)
 importFrom(Rcpp, evalCpp)
 exportPattern("^[[:alpha:]]+")
-import(mvtnorm,igraph,graphics,MCMCpack,extraDistr,ramcmc,geometry,dplyr,cluster)
+import(mvtnorm,igraph,graphics,MCMCpack,extraDistr,ramcmc,geometry,dplyr,cluster,MASS)
