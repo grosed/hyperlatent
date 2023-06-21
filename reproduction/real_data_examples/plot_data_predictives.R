@@ -1,7 +1,10 @@
-source('../mcmc/getdat.R')
-source('../mcmc/mcmc.R')
-source("../mcmc/graphsummary.R") 
-source("./data/subsample.R")
+library(hyperlatent)
+
+#source('../mcmc/getdat.R')
+#source('../mcmc/mcmc.R')
+#source("../mcmc/graphsummary.R") 
+#source("./data/subsample.R")
+
 library('HyperG')
 library('ggplot2')
 library('gridExtra')
