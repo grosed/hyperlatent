@@ -1,4 +1,4 @@
-library(praxi)
+library(hyperlatent)
 
 #source('../mcmc/mcmc.R')
 #source('../mcmc/getdat.R')
