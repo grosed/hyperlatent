@@ -1,4 +1,4 @@
-library(praxi)
+library(hyperlatent)
 
 ### script to run depth model comparisons
 
