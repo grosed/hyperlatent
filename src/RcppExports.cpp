@@ -12,7 +12,7 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 
 // calc_cech_R2
 List calc_cech_R2(float rmax, NumericMatrix xs, int nrow, int ncol, int K);
-RcppExport SEXP _praxi_calc_cech_R2(SEXP rmaxSEXP, SEXP xsSEXP, SEXP nrowSEXP, SEXP ncolSEXP, SEXP KSEXP) {
+RcppExport SEXP _hyperlatent_calc_cech_R2(SEXP rmaxSEXP, SEXP xsSEXP, SEXP nrowSEXP, SEXP ncolSEXP, SEXP KSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -27,7 +27,7 @@ END_RCPP
 }
 // calc_cech_R3
 List calc_cech_R3(float rmax, NumericMatrix xs, int nrow, int ncol, int K);
-RcppExport SEXP _praxi_calc_cech_R3(SEXP rmaxSEXP, SEXP xsSEXP, SEXP nrowSEXP, SEXP ncolSEXP, SEXP KSEXP) {
+RcppExport SEXP _hyperlatent_calc_cech_R3(SEXP rmaxSEXP, SEXP xsSEXP, SEXP nrowSEXP, SEXP ncolSEXP, SEXP KSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -42,7 +42,7 @@ END_RCPP
 }
 // miniball_rsqr
 double miniball_rsqr(NumericMatrix xmat, int d, int n);
-RcppExport SEXP _praxi_miniball_rsqr(SEXP xmatSEXP, SEXP dSEXP, SEXP nSEXP) {
+RcppExport SEXP _hyperlatent_miniball_rsqr(SEXP xmatSEXP, SEXP dSEXP, SEXP nSEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
@@ -55,13 +55,13 @@ END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_praxi_calc_cech_R2", (DL_FUNC) &_praxi_calc_cech_R2, 5},
-    {"_praxi_calc_cech_R3", (DL_FUNC) &_praxi_calc_cech_R3, 5},
-    {"_praxi_miniball_rsqr", (DL_FUNC) &_praxi_miniball_rsqr, 3},
+    {"_hyperlatent_calc_cech_R2", (DL_FUNC) &_hyperlatent_calc_cech_R2, 5},
+    {"_hyperlatent_calc_cech_R3", (DL_FUNC) &_hyperlatent_calc_cech_R3, 5},
+    {"_hyperlatent_miniball_rsqr", (DL_FUNC) &_hyperlatent_miniball_rsqr, 3},
     {NULL, NULL, 0}
 };
 
-RcppExport void R_init_praxi(DllInfo *dll) {
+RcppExport void R_init_hyperlatent(DllInfo *dll) {
     R_registerRoutines(dll, NULL, CallEntries, NULL, NULL);
     R_useDynamicSymbols(dll, FALSE);
 }

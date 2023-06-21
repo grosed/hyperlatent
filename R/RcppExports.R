@@ -2,14 +2,14 @@
 # Generator token: 10BE3573-1514-4C36-9D1C-5A225CD40393
 
 calc_cech_R2 <- function(rmax, xs, nrow, ncol, K) {
-    .Call(`_praxi_calc_cech_R2`, rmax, xs, nrow, ncol, K)
+    .Call(`_hyperlatent_calc_cech_R2`, rmax, xs, nrow, ncol, K)
 }
 
 calc_cech_R3 <- function(rmax, xs, nrow, ncol, K) {
-    .Call(`_praxi_calc_cech_R3`, rmax, xs, nrow, ncol, K)
+    .Call(`_hyperlatent_calc_cech_R3`, rmax, xs, nrow, ncol, K)
 }
 
 miniball_rsqr <- function(xmat, d, n) {
-    .Call(`_praxi_miniball_rsqr`, xmat, d, n)
+    .Call(`_hyperlatent_miniball_rsqr`, xmat, d, n)
 }
 
