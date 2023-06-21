@@ -1,9 +1,12 @@
 library(reshape2)
 library(ggplot2)
 library('HyperG') 
-source("../mcmc/graphsummary.R")
-source('../mcmc/mcmc.R')
-source('../mcmc/getdat.R')
+ibrary(hyperlatent)
+
+
+#source("../mcmc/graphsummary.R")
+#source('../mcmc/mcmc.R')
+#source('../mcmc/getdat.R')
 
 ########################################################################
 ################# extra functions #####################################
