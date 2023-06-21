@@ -2,11 +2,12 @@
 library(ggplot2)
 library(dplyr)
 library('HyperG')
-source('../mcmc/mcmc.R')
-source('../mcmc/getdat.R')
-source("../mcmc/graphsummary.R")
-source("../mcmc/getmisspecdat.R") # functions to gen misspec data
-source("../mcmc/misspecsummary.R") # function getting graph summaries
+ibrary(hyperlatent)
+#source('../mcmc/mcmc.R')
+#source('../mcmc/getdat.R')
+#source("../mcmc/graphsummary.R")
+#source("../mcmc/getmisspecdat.R") # functions to gen misspec data
+#source("../mcmc/misspecsummary.R") # function getting graph summaries
 
 ## extra functions
 getavdd <- function(ddlst){
