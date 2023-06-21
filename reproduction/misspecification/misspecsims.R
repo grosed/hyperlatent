@@ -1,4 +1,4 @@
-library(praxi)
+library(hyperlatent)
 
 ## have 3 different types of misspec:
 ## 1) latent coordinates (normal, normal mixture, poisson process)
