@@ -2,7 +2,7 @@ library('plyr')
 library('HyperG') 
 library('igraph')
 
-library(praxi)
+library(hyperlatent)
 
 #source('subsample.R')
 #source('../../mcmc/graphsummary.R') 
