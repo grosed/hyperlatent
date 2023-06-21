@@ -1,4 +1,4 @@
-library(praxi)
+library(hyperlatent)
 library(MASS)
 
 set.seed(258352)
